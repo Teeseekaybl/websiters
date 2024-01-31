@@ -1,0 +1,80 @@
+body{
+    font-family:Indie flower, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(Images/Background.jpg);
+    backdrop-filter: blur(6.5px);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+}
+#title{
+    font-family:Kalam, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Lucida Sans', 'Lucida Sans Regular',;
+    font-weight:300 ;
+    font-style:bold ;
+    background-color:rgb(97, 252, 180);
+    border: 4.5px groove hsl(221, 54%, 51%);
+    border-radius:10px;
+    border-width: 2.5px;
+    width:370px;
+    text-shadow: 3px 3px 3.5px hsl(32, 100%, 35%);
+    font-size: 180%;
+}
+
+#Yessir{
+    text-decoration-line:underline;
+    text-decoration-thickness:2px;
+    font-size: 250%;
+}
+
+#Main, #Copyright{
+    margin-left: 15px;
+    margin-right: 15px;
+    backdrop-filter: blur(8px);
+}
+
+#Main{
+    background-color:aqua;
+}
+#Copyright{
+   color: aliceblue;
+}
+
+#q1, #q2, #q3{
+    font-size: 200%;
+}
+#t1{
+    font-size: 230%;
+}
+.page{
+    text-align: center;
+}
+.page a{
+    color:rgb(253, 242, 222);
+    text-decoration-line: none;
+    padding: 8.5px 16px;
+    display: inline-block;
+}
+.page a.active{
+    background-color:hsl(165, 100%, 50%);
+    border-radius: 4.5px;
+    font-weight: bolder;
+}
+.page a:hover:not(.active){
+    background-color: rgba(189, 189, 189, 0.568);
+    border-radius: 4.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
